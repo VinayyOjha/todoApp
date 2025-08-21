@@ -8,7 +8,7 @@
  * ]
  */
 
-export function Todos(todos){
+export function Todos({todos}){
     return (
         <div className="">
             {todos.map(function(todo){
